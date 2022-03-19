@@ -796,7 +796,6 @@ yolact_edge_config = yolact_base_config.copy({
     'torch2trt_protonet_int8': True,
     'torch2trt_fpn': True,
     'torch2trt_prediction_module': True,
-    'use_fast_nms': False
 })
 
 yolact_edge_mobilenetv2_config = yolact_edge_config.copy({
